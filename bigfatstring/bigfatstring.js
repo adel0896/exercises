@@ -50,9 +50,9 @@ function generateOutput(event) {
     result = input.substring(0, 2).toLowerCase() + input[2].toUpperCase() + input.substring(3).toLowerCase();
   }
 
-  showResult();
+  showresult();
 }
-function showResult() {
+function showresult() {
   document.querySelector("#output").value = result;
   console.log("works");
 }
