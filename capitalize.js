@@ -1,5 +1,13 @@
 "use strict";
-const name1 = "adelina stefania radulescu";
+const name = "adelina stefania radulescu";
 
-const name2 = name1[0].toUpperCase() + name1.substring(1).toLowerCase();
-console.log(name2);
+// console.log(name2);
+
+capitalize(name);
+function capitalize(nameParam) {
+  //   let name2 = nameParam[0].toUpperCase() + nameParam.substring(1).toLowerCase();
+  let name2 = nameParam[0].toUpperCase() + nameParam.substring(1, 8).toLowerCase() + nameParam.substring(8).toUpperCase();
+
+  console.log(name2);
+  console.log(name);
+}
